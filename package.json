@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarampau/My-personal-portfolio.git"
+  },
+  "author": "Manuel Carbajal <mannysth@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarampau/My-personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/sarampau/My-personal-portfolio#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "data": "^0.6.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "form": "^0.2.4",
+    "form-data": "^2.3.2",
+    "morgan": "^1.9.0"
+  }
+}
